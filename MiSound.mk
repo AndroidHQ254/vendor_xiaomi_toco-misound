@@ -31,4 +31,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.dolby.dax.version=DAX3_3.6
 # }}}
 
-$(call inherit-product, vendor/xiaomi/sweet-misound/common/common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/toco-misound/common/common-vendor.mk)

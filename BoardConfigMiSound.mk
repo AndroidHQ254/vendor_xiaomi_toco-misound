@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-MISOUND_PATH := vendor/xiaomi/sweet-misound
+MISOUND_PATH := vendor/xiaomi/toco-misound
 
 # Manifest
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
@@ -13,4 +13,4 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(MISOUND_PATH)/sepolicy
 
-include vendor/xiaomi/sweet-misound/common/BoardConfigVendor.mk
+include vendor/xiaomi/toco-misound/common/BoardConfigVendor.mk

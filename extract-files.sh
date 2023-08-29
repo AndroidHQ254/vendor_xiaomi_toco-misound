@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=common
-VENDOR=xiaomi/sweet-misound
+VENDOR=xiaomi/toco-misound
 
 # Load extract utilities and do some sanity checks.
 MY_DIR="${BASH_SOURCE%/*}"
